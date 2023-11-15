@@ -42,7 +42,6 @@ html{
     display: none;
 }
 
-
 .hero_image{
     flex: 1;
 }
@@ -70,8 +69,9 @@ html{
 
 #hero_button:hover{
     background-color: rgb(39, 41, 40);
-    color: white;
+    color: rgb(164, 155, 155);
 }
+
 
 
 
