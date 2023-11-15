@@ -3,8 +3,15 @@
 
 html{
     font-size: 16px;
+}
+
+body{
+    margin: 0;
     background-color: rgb(237, 230, 220);
 }
+
+
+/* ---------------------------------------- HERO ---------------------------------------- */
 
 .hero_contact{
     padding: 12px;
@@ -47,12 +54,13 @@ html{
 .hero_image{
     flex: 1;
     text-align: center;
+    margin: 5px;
 }
 
 #hero_image{
     width: 100%;
     border: solid black;
-    max-width: 400px;
+    max-width: 350px;
 }
 
 .hero_presentation_1{
@@ -76,10 +84,138 @@ html{
     color: white;
 }
 
+/* ---------------------------------------- CONTENT ---------------------------------------- */
+
+.content{
+    padding: 5px;
+    text-align: center;
+}
+
+.wid_title{
+    font-size: 0.8rem;
+    margin-top: 20px;
+    color: blue;
+}
+
+.xp_box{
+    border: solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.xp_title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.wid_text{
+    font-size: 1.1rem;
+}
+
+.xp_infos{
+    display: flex;
+    margin: 15px auto;
+    align-items: center;
+}
+
+.xp_period{
+    flex: 1;
+}
+
+.xp_detail{
+    flex: 2;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+/* ---------------------------------------- PROJECTS ---------------------------------------- */
+
+.projects_box{
+    text-align: center;
+}
+
+.projects_title{
+    font-size: 0.8rem;
+    margin-top: 30px;
+    color: blue;
+}
+
+.projects_text{
+    font-size: 1.1rem;
+}
+
+
+/* ---------------------------------------- EXPERIENCES ---------------------------------------- */
+
+.experiences{
+    margin: 5px;
+}
+
+.experience{
+    border: solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+.experience_image_2{
+    display: none;
+}
+
+.experience_image_1{
+    width: 100%;
+    text-align: center;
+}
+
+#experience_image_1{
+    width: 90%;
+    max-width: 200px;
+}
+
+.experience_text{
+    padding: 10px;
+}
+
+.experience_title{
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 10px auto;
+}
+
+.experience_description{
+    font-size: 0.8rem;
+}
+
+.experience_link{
+    font-size: 0.8rem;
+    margin: 10px auto;
+}
+
+
+/* ---------------------------------------- FOOTER ---------------------------------------- */
+
+.footer{
+    height: 70px;
+    margin-top: 15px;
+    background-color: black;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer_text{
+    color: white;
+    font-size: 0.7rem;
+}
 
 
 /* ---------- 576 à 768px ---------- */
-/* ---------- Mobile ---------- */
+/* ---------- Tablet ---------- */
 
 @media screen and (min-width: 576px)
 {
@@ -104,6 +240,28 @@ html{
     #hero_button_1{
         font-size: 1.5rem;
     }
+
+
+/* ---------------------------------------- EXPERIENCES ---------------------------------------- */
+
+    .experience{
+        display: flex;
+    }
+
+    .experience_image_2{
+        display: block;
+    }
+
+
+    #experience_image_2{
+        width: 100%;
+    }
+
+    .experience_image_1{
+        display: none;
+    }
+
+
 }
 
 /* ---------- 768 à 992px ---------- */
@@ -134,7 +292,6 @@ html{
 
     .hero_button_2{
         display: block;
-
         text-align: center;
         margin: 20px 0;
     }
@@ -151,6 +308,31 @@ html{
     #hero_button_1{
         display: none;
     }
+    
+    
+/* ---------------------------------------- CONTENT ---------------------------------------- */
+
+    .content{
+        margin: 10px 5px;
+    }
+
+/* ---------------------------------------- EXPERIENCES ---------------------------------------- */
+
+    .experience{
+        padding: 5px;
+    }
+
+    #experience_image_2{
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .experience_image_1{
+        display: none;
+    }
+
+
+
 }
 
 
@@ -160,8 +342,8 @@ html{
 @media screen and (min-width: 992px) 
 {
     .hero_content_1{
-        margin: 25px auto;
-        width: 85%;
+        margin: 0 auto;
+        width: 70%;
     }
 
     .hero_text{
@@ -179,6 +361,33 @@ html{
         font-size: 1.6rem;
     }
 
+/* ---------------------------------------- CONTENT ---------------------------------------- */
+
+    .content{
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .projects{
+        margin: 0 auto;
+        width: 70%;
+    }
+
+/* ---------------------------------------- EXPERIENCES ---------------------------------------- */
+
+
+    .experiences{
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .experience{
+        padding: 10px;
+    }
+
+    #experience_image_2{
+        max-width: 300px;
+    }
 
 }
 
