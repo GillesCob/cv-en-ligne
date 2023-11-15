@@ -80,6 +80,7 @@ body{
 #hero_button_1{
     background-color: #D6D3D1;
     font-size: 1.2rem;
+    padding: 10px 25px;
 }
 
 #hero_button_1:hover{
@@ -314,10 +315,13 @@ body{
 
     #hero_button_2{
         font-size: 1.8rem;
+        background-color: #D6D3D1;
+        padding: 10px 25px;
+
     }
     
     #hero_button_2:hover{
-        background-color: rgb(39, 41, 40);
+        background-color: #E7E5E4;
         color: white;
         cursor: pointer;
     }
