@@ -55,7 +55,6 @@ body{
     flex: 1;
     text-align: center;
     margin: 5px;
-
 }
 
 #hero_image{
@@ -215,7 +214,6 @@ body{
     height: 70px;
     margin-top: 15px;
     background-color: #1C1917;
-    
 
     display: flex;
     align-items: center;
@@ -365,7 +363,9 @@ body{
 {
     .hero_content_1{
         margin: 0 auto;
-        width: 70%;
+        width: 90%;
+        min-width: 300px;
+        max-width: 1000px;
     }
 
     .hero_text{
@@ -382,6 +382,13 @@ body{
     .hero_presentation_2{
         font-size: 1.6rem;
     }
+
+    
+    #hero_image{
+        min-width: 320px;
+    }
+
+
 
 /* ---------------------------------------- CONTENT ---------------------------------------- */
 
